@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d9f7f7;
+    min-height: 100vh;
+}
+
+.login-container {
+    width: 90%;
+    max-width: 900px;
+    margin: 35px auto 0;
+    background-color: white;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.login-container h1 {
+    font-size: 32px;
+    font-weight: normal;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+#loginForm {
+    width: 310px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#loginForm input {
+    width: 100%;
+    height: 45px;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+#loginForm button {
+    width: 100%;
+    height: 52px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+
+    background-color: #25d366;
+    color: white;
+
+    border: none;
+    border-radius: 2px;
+
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#loginForm button:hover {
+    background-color: #20bd5a;
+}
+
+#mensaje {
+    margin: 0;
+}
+
+.info-login {
+    width: 100%;
+    min-height: 260px;
+
+    background-color: #263238;
+
+    color: white;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    text-align: left;
+
+    padding: 35px 60px;
+}
+
+.info-login h3 {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.info-login p {
+    font-size: 15px;
+    margin-bottom: 8px;
+}
